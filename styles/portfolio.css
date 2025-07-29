@@ -48,6 +48,8 @@
     background-position: 50px 188px , bottom left;
     padding-top: 50px;
 }
+
+
 nav{
     display: flex;
     align-items: center;
@@ -78,6 +80,8 @@ nav li a {
 }
 .banner-content{
     max-width: 580px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .banner-greetings{
@@ -92,6 +96,14 @@ nav li a {
 .banner-profile-pic{
     width: 700px;
     
+}
+.left-banner-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-top: 30px;
+    opacity: 0.3;
+    font-size: 40px;
+    color: #000;
 }
 main{
     max-width: 1140px;

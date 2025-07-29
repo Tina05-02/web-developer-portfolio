@@ -7,22 +7,28 @@
     "wdth" 100;
 }
 .secondary-bg{
-    background-color: burlywood;
+    background-color:burlywood;
 }
 .text-primary{
-    color: lightcoral;
+    color:palevioletred;
 }
 .dark-2{
     color: #474747;
 }
 .btn-primary{
-    background-color: orangered;
-    font-weight: bold;
+    background-color: brown;
     font-size: 20px;
     color: white;
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: palevioletred;
+    cursor: pointer;
+}
+.btn-primary:active{
+    background-color: purple;
 }
 .section-title{
     font-size: 35px;
@@ -39,7 +45,8 @@
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left , bottom left;
+    background-position: 50px 188px , bottom left;
+    padding-top: 50px;
 }
 nav{
     display: flex;
@@ -67,6 +74,7 @@ nav li a {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
+    
 }
 .banner-content{
     max-width: 580px;
@@ -82,7 +90,7 @@ nav li a {
 
 }
 .banner-profile-pic{
-    width: 580px;
+    width: 700px;
     
 }
 main{
@@ -155,6 +163,17 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
-
-
+}
+footer a img{
+    transition: transform 0.2s filter 0.3s;
+}
+footer a:hover img{
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    background-color: aqua;
+}
+footer a:active img{
+    transform: scale(0.95);
+    filter: brightness(0.8);
+    background-color: purple;
 }
